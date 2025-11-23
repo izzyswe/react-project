@@ -1,4 +1,6 @@
-function UserInput({ onAddEntry }) {
+import { useState } from "react"
+
+export default function UserInput({ onAddEntry }) {
   const [formData, setFormData] = useState({
     img: '',
     titleImg: '',
