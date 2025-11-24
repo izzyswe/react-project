@@ -33,8 +33,7 @@ export default function UserInput({ onAddEntry }) {
         description: ''
       })
     }
-  }
-
+  } 
   return(
     <div className="user-input">
       <h2 className="user-input__title">Add New Travel Entry</h2>
