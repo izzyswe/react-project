@@ -1,5 +1,6 @@
 // Function receives props object as parameter (naming it "props" is convention)
 // Attribute names you pass become properties: <Entry title="..." /> → props.title
+import location_icon from "../assets/location-icon.svg"
 
 //props
 //1.title --> content title ex.) Mount Fuji
@@ -18,7 +19,7 @@ export default function Entry(props){
             </div>
             <div className="card__content">
                 <div className="card__content-location">
-                    <img src="../assets/location-icon.svg"/>
+                    <img src={location_icon}/>
                     <p>{props.country}</p>
                     <a href={props.mapUrl}>View on Google Maps</a>
                 </div>
